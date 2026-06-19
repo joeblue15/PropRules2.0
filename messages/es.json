@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "cfd": "CFD",
+    "futures": "Futuros",
+    "search": "Buscar prop firm...",
+    "searchShort": "Buscar...",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "admin": "Panel admin"
+  },
+  "home": {
+    "heroTitle": "Encuentra las reglas que las prop firms no destacan.",
+    "cfdTitle": "CFD",
+    "cfdSubtitle": "Consulta las reglas de las principales prop firms de CFD.",
+    "futuresTitle": "Futuros",
+    "futuresSubtitle": "Consulta las reglas de las principales prop firms de futuros.",
+    "viewRules": "Ver reglas",
+    "challengesCount": "{count} challenges",
+    "challengeCount": "1 challenge",
+    "updatedAgo": "Actualizado {time}",
+    "updates": "Actualizaciones",
+    "viewUpdate": "Ver actualización",
+    "noProps": "Todavía no hay prop firms agregadas en esta categoría.",
+    "noUpdates": "No hay actualizaciones recientes."
+  },
+  "time": {
+    "today": "hoy",
+    "yesterday": "ayer",
+    "daysAgo": "hace {count} días",
+    "dayAgo": "hace 1 día",
+    "weeksAgo": "hace {count} semanas",
+    "weekAgo": "hace 1 semana",
+    "monthsAgo": "hace {count} meses",
+    "monthAgo": "hace 1 mes"
+  },
+  "modal": {
+    "selectChallenge": "Selecciona tu challenge",
+    "close": "Cerrar"
+  },
+  "breadcrumb": {
+    "home": "Inicio"
+  },
+  "rules": {
+    "tabs": {
+      "summary": "Resumen",
+      "risk": "Riesgo",
+      "targets": "Objetivos",
+      "trading": "Trading",
+      "special": "Restricciones especiales",
+      "funded": "Financiada",
+      "legal": "Legal",
+      "fine_print": "La letra pequeña"
+    },
+    "summary": {
+      "allowed": "Permitido",
+      "notAllowed": "No permitido",
+      "attention": "Atención",
+      "riskLevel": "Nivel de riesgo",
+      "noData": "Sin información registrada todavía."
+    },
+    "discount": {
+      "code": "Código",
+      "copy": "Copiar código",
+      "copied": "Copiado",
+      "go": "Ir a la oferta"
+    },
+    "alerts": {
+      "warning": "Atención",
+      "danger": "Importante",
+      "info": "Nota"
+    },
+    "interpretation": {
+      "title": "Lo que esto significa en la práctica"
+    },
+    "examples": {
+      "title": "Casos prácticos",
+      "lesson": "Lección",
+      "amountLost": "Pérdida estimada"
+    },
+    "notAvailable": "N/D",
+    "lastUpdated": "Última actualización: {date}",
+    "reportChange": "Reportar cambio",
+    "viewFull": "Ver caso completo",
+    "fields": {
+      "maxDrawdown": "Drawdown máximo",
+      "dailyDrawdown": "Drawdown diario",
+      "drawdownType": "Tipo de drawdown",
+      "drawdownBasis": "Balance o Equity",
+      "maxLotSize": "Lotaje máximo",
+      "hedging": "Hedging",
+      "maxSimultaneousPositions": "Posiciones simultáneas",
+      "maxExposurePerTrade": "Exposición máxima por operación",
+      "martingale": "Martingale",
+      "gridTrading": "Grid Trading",
+      "phase1Target": "Profit Target Fase 1",
+      "phase2Target": "Profit Target Fase 2",
+      "consistencyRule": "Regla de consistencia",
+      "minTradingDays": "Días mínimos",
+      "maxDaysToComplete": "Tiempo máximo",
+      "minProfit": "Beneficio mínimo",
+      "newsTrading": "Noticias",
+      "overnightHolding": "Overnight",
+      "weekendHolding": "Weekend Holding",
+      "copyTrading": "Copy Trading",
+      "eaAllowed": "Expert Advisors",
+      "scalping": "Scalping",
+      "hft": "HFT",
+      "latencyArbitrage": "Latency Arbitrage",
+      "reverseArbitrage": "Reverse Arbitrage",
+      "oneSidedBetting": "One-Sided Betting",
+      "profitSplit": "Profit Split",
+      "payoutFrequency": "Frecuencia de pagos",
+      "minimumPayout": "Payout mínimo",
+      "scalingPlan": "Escalamiento",
+      "maxAccountSize": "Tamaño máximo de cuenta",
+      "firstWithdrawal": "Primer retiro",
+      "vpnAllowed": "VPN",
+      "vpsAllowed": "VPS",
+      "sharedIp": "IP compartida",
+      "multipleAccounts": "Múltiples cuentas",
+      "countryRestrictions": "Restricciones por país",
+      "kyc": "KYC",
+      "abusePolicy": "Política de abuso"
+    },
+    "values": {
+      "yes": "Permitido",
+      "no": "No permitido",
+      "partial": "Parcial",
+      "static": "Estático",
+      "trailing": "Trailing",
+      "endOfDay": "Fin de día",
+      "balance": "Balance",
+      "equity": "Equity"
+    }
+  },
+  "footer": {
+    "about": "Sobre nosotros",
+    "privacy": "Privacidad",
+    "cookies": "Cookies",
+    "terms": "Términos de uso",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "disclaimer": "PropRules es un sitio informativo independiente. No estamos afiliados oficialmente con las prop firms listadas. Verifica siempre las condiciones directamente con cada proveedor."
+  },
+  "dashboard": {
+    "title": "Panel de administración",
+    "nav": {
+      "overview": "Resumen",
+      "props": "Prop firms",
+      "challenges": "Challenges",
+      "updates": "Actualizaciones",
+      "discounts": "Descuentos",
+      "hero": "Portada",
+      "settings": "Configuración"
+    },
+    "login": {
+      "title": "Acceso administrador",
+      "subtitle": "Inicia sesión con tu cuenta de Google autorizada.",
+      "button": "Continuar con Google",
+      "denied": "Tu cuenta no tiene permisos de administrador."
+    },
+    "actions": {
+      "create": "Crear",
+      "edit": "Editar",
+      "duplicate": "Duplicar",
+      "delete": "Eliminar",
+      "save": "Guardar cambios",
+      "saving": "Guardando...",
+      "cancel": "Cancelar",
+      "activate": "Activar",
+      "deactivate": "Desactivar",
+      "addItem": "Agregar",
+      "confirmDelete": "¿Seguro que quieres eliminar esto? Esta acción no se puede deshacer."
+    },
+    "toasts": {
+      "propCreated": "Prop creada correctamente",
+      "propUpdated": "Prop actualizada correctamente",
+      "propDeleted": "Prop eliminada",
+      "challengeCreated": "Challenge creado correctamente",
+      "challengeUpdated": "Challenge actualizado correctamente",
+      "challengeDeleted": "Challenge eliminado",
+      "updateCreated": "Actualización publicada",
+      "updateUpdated": "Actualización guardada",
+      "updateDeleted": "Actualización eliminada",
+      "discountSaved": "Descuento guardado",
+      "discountDeleted": "Descuento eliminado",
+      "heroSaved": "Portada actualizada",
+      "error": "Ocurrió un error al guardar. Intenta de nuevo.",
+      "logoUploaded": "Logo subido correctamente",
+      "logoError": "Error al subir el logo."
+    }
+  }
+}

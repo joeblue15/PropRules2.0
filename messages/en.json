@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "cfd": "CFD",
+    "futures": "Futures",
+    "search": "Search prop firm...",
+    "searchShort": "Search...",
+    "login": "Sign in",
+    "logout": "Sign out",
+    "admin": "Admin panel"
+  },
+  "home": {
+    "heroTitle": "Find the rules prop firms don't highlight.",
+    "cfdTitle": "CFD",
+    "cfdSubtitle": "Browse the rules of the top CFD prop firms.",
+    "futuresTitle": "Futures",
+    "futuresSubtitle": "Browse the rules of the top futures prop firms.",
+    "viewRules": "View rules",
+    "challengesCount": "{count} challenges",
+    "challengeCount": "1 challenge",
+    "updatedAgo": "Updated {time}",
+    "updates": "Updates",
+    "viewUpdate": "View update",
+    "noProps": "No prop firms added in this category yet.",
+    "noUpdates": "No recent updates."
+  },
+  "time": {
+    "today": "today",
+    "yesterday": "yesterday",
+    "daysAgo": "{count} days ago",
+    "dayAgo": "1 day ago",
+    "weeksAgo": "{count} weeks ago",
+    "weekAgo": "1 week ago",
+    "monthsAgo": "{count} months ago",
+    "monthAgo": "1 month ago"
+  },
+  "modal": {
+    "selectChallenge": "Select your challenge",
+    "close": "Close"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "rules": {
+    "tabs": {
+      "summary": "Summary",
+      "risk": "Risk",
+      "targets": "Targets",
+      "trading": "Trading",
+      "special": "Special restrictions",
+      "funded": "Funded account",
+      "legal": "Legal",
+      "fine_print": "Fine print"
+    },
+    "summary": {
+      "allowed": "Allowed",
+      "notAllowed": "Not allowed",
+      "attention": "Watch out",
+      "riskLevel": "Risk level",
+      "noData": "No information recorded yet."
+    },
+    "discount": {
+      "code": "Code",
+      "copy": "Copy code",
+      "copied": "Copied",
+      "go": "Go to offer"
+    },
+    "alerts": {
+      "warning": "Warning",
+      "danger": "Important",
+      "info": "Note"
+    },
+    "interpretation": {
+      "title": "What this means in practice"
+    },
+    "examples": {
+      "title": "Real cases",
+      "lesson": "Lesson",
+      "amountLost": "Estimated loss"
+    },
+    "notAvailable": "N/A",
+    "lastUpdated": "Last updated: {date}",
+    "reportChange": "Report a change",
+    "viewFull": "View full case",
+    "fields": {
+      "maxDrawdown": "Max drawdown",
+      "dailyDrawdown": "Daily drawdown",
+      "drawdownType": "Drawdown type",
+      "drawdownBasis": "Based on",
+      "maxLotSize": "Max lot size",
+      "hedging": "Hedging",
+      "maxSimultaneousPositions": "Max simultaneous positions",
+      "maxExposurePerTrade": "Max exposure per trade",
+      "martingale": "Martingale",
+      "gridTrading": "Grid Trading",
+      "phase1Target": "Phase 1 profit target",
+      "phase2Target": "Phase 2 profit target",
+      "consistencyRule": "Consistency rule",
+      "minTradingDays": "Minimum trading days",
+      "maxDaysToComplete": "Max time to complete",
+      "minProfit": "Minimum profit",
+      "newsTrading": "News trading",
+      "overnightHolding": "Overnight holding",
+      "weekendHolding": "Weekend holding",
+      "copyTrading": "Copy trading",
+      "eaAllowed": "Expert Advisors",
+      "scalping": "Scalping",
+      "hft": "HFT",
+      "latencyArbitrage": "Latency arbitrage",
+      "reverseArbitrage": "Reverse arbitrage",
+      "oneSidedBetting": "One-sided betting",
+      "profitSplit": "Profit split",
+      "payoutFrequency": "Payout frequency",
+      "minimumPayout": "Minimum payout",
+      "scalingPlan": "Scaling plan",
+      "maxAccountSize": "Max account size",
+      "firstWithdrawal": "First withdrawal",
+      "vpnAllowed": "VPN",
+      "vpsAllowed": "VPS",
+      "sharedIp": "Shared IP",
+      "multipleAccounts": "Multiple accounts",
+      "countryRestrictions": "Country restrictions",
+      "kyc": "KYC",
+      "abusePolicy": "Abuse policy"
+    },
+    "values": {
+      "yes": "Allowed",
+      "no": "Not allowed",
+      "partial": "Partial",
+      "static": "Static",
+      "trailing": "Trailing",
+      "endOfDay": "End of day",
+      "balance": "Balance",
+      "equity": "Equity"
+    }
+  },
+  "footer": {
+    "about": "About us",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "terms": "Terms of use",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "disclaimer": "PropRules is an independent informational site. We are not officially affiliated with any listed prop firm. Always verify conditions directly with each provider."
+  },
+  "dashboard": {
+    "title": "Admin panel",
+    "nav": {
+      "overview": "Overview",
+      "props": "Prop firms",
+      "challenges": "Challenges",
+      "updates": "Updates",
+      "discounts": "Discounts",
+      "hero": "Hero",
+      "settings": "Settings"
+    },
+    "login": {
+      "title": "Admin access",
+      "subtitle": "Sign in with your authorized Google account.",
+      "button": "Continue with Google",
+      "denied": "Your account does not have admin permissions."
+    },
+    "actions": {
+      "create": "Create",
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "delete": "Delete",
+      "save": "Save changes",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "addItem": "Add",
+      "confirmDelete": "Are you sure you want to delete this? This action cannot be undone."
+    },
+    "toasts": {
+      "propCreated": "Prop firm created",
+      "propUpdated": "Prop firm updated",
+      "propDeleted": "Prop firm deleted",
+      "challengeCreated": "Challenge created",
+      "challengeUpdated": "Challenge updated",
+      "challengeDeleted": "Challenge deleted",
+      "updateCreated": "Update published",
+      "updateUpdated": "Update saved",
+      "updateDeleted": "Update deleted",
+      "discountSaved": "Discount saved",
+      "discountDeleted": "Discount deleted",
+      "heroSaved": "Hero updated",
+      "error": "Something went wrong. Please try again.",
+      "logoUploaded": "Logo uploaded successfully",
+      "logoError": "Error uploading logo."
+    }
+  }
+}
