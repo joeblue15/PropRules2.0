@@ -6,7 +6,7 @@ Plataforma donde los traders consultan las reglas de las principales prop firms 
 
 - **Next.js 15** (App Router) + TypeScript
 - **Tailwind CSS v4**
-- **Supabase** (Auth con Google, Postgres, Row Level Security)
+- **Supabase** (Auth con Email/Password, Postgres, Row Level Security)
 - **next-intl** (español / inglés)
 - **next-themes** (modo oscuro / claro)
 - **react-hot-toast** (notificaciones del admin)
@@ -36,17 +36,20 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=tu_anon_key
 2. Pega el contenido completo de `supabase/schema.sql`.
 3. Ejecuta. Esto crea todas las tablas, políticas de seguridad (RLS) y datos de ejemplo de FTMO.
 
-### 4. Habilitar Google OAuth
+### 4. Habilitar Email Authentication
 
-1. En Supabase: Authentication → Providers → Google.
-2. Activa el proveedor y configura el Client ID / Secret de Google Cloud Console.
+1. En Supabase: Authentication → Providers → Email.
+2. Activa el proveedor Email (está activado por defecto en la mayoría de proyectos).
 3. En Authentication → URL Configuration, agrega como Redirect URL:
    - http://localhost:3000/auth/callback
    - https://tu-dominio.com/auth/callback
 
-### 5. Convertirte en administrador
+### 5. Crear usuario y convertirte en administrador
 
-Después de iniciar sesión con Google por primera vez en el sitio (esto crea tu fila en `admin_users` automáticamente), ve al SQL Editor de Supabase y ejecuta:
+1. En Supabase: Authentication → Users → Add user.
+2. Crea un usuario con tu email y contraseña.
+3. Inicia sesión en el sitio (esto crea tu fila en `admin_users` automáticamente).
+4. Ve al SQL Editor de Supabase y ejecuta:
 
 ```sql
 update admin_users set is_admin = true where email = 'tu-email@gmail.com';
@@ -116,8 +119,8 @@ El proyecto esta listo para desplegar en Vercel:
 2. Importa el repo en vercel.com.
 3. Agrega las mismas variables de entorno (NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY) en Vercel -> Settings -> Environment Variables.
 4. Despliega. Vercel detecta Next.js automaticamente.
-5. Conecta tu dominio proprules.pro desde Vercel -> Domains.
-6. Actualiza el Redirect URL de Google OAuth en Supabase con tu dominio de produccion.
+5. Conecta tu dominio desde Vercel -> Domains.
+6. Actualiza el Redirect URL en Supabase con tu dominio de producción.
 
 ## Notas
 
